@@ -8,7 +8,7 @@ st.write("""
 Se muestra el stock closing price and volume de GOOGLE!!!
 """)
 
-tickerSymbol = 'APPL'
+tickerSymbol = 'GOOGL'
 tickerData = yf.Ticker(tickerSymbol)
 tickerDF = tickerData.history(period="id", start ="2018-12-25", end="2023-12-20")
 
