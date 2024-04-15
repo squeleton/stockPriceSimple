@@ -14,3 +14,5 @@ tickerDF = tickerData.history(period="id", start ="2018-12-25", end="2023-12-20"
 
 st.line_chart(tickerDF.Close)
 st.line_chart(tickerDF.Volume)
+
+#Dejo esto para probar el repositorio en algo
